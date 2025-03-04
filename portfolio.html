@@ -27,7 +27,7 @@
   </head>
   <body class="body">
     <!-- Шапка сайту -->
-<header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="nav">
           <a class="logo logo-header link" href="./index.html"
@@ -81,9 +81,11 @@
           </button>
           <ul class="mobil-nav-list list">
             <li class="mobil-nav-item">
-              <a class="mobil-nav-link link" href="./index.html#about"">Про нас</a>
+              <a class="mobil-nav-link link" href="./index.html#about"
+                >Про нас</a
+              >
             </li>
-            
+
             <li class="mobil-nav-item">
               <a class="mobil-nav-link link" href="./index.html#services"
                 >Наші послуги</a
@@ -168,7 +170,8 @@
               <button class="works-btn" type="button" data-filter="wag">
                 WAG Group
               </button>
-              <li class="filters-list-btn">
+            </li>
+            <li class="filters-list-btn">
               <button class="works-btn" type="button" data-filter="toyota">
                 Toyota
               </button>
@@ -178,152 +181,209 @@
                 Інші
               </button>
             </li>
-            </li>
           </ul>
           <ul class="works-list list">
             <li class="works-item all renault">
-              <a class="portfolio-link link" href="">
-                <div class="works-item-thumb">
-                  <picture>
-                    <source
-                      media="(min-width: 1158px)"
-                      srcset="
-                        ./images/img1-portf-desctop.webp    1x,
-                        ./images/img1-portf@2x-desctop.webp 2x
-                      "
-                      type="image/webp"
-                    />
-                    <source
-                      media="(min-width: 1158px)"
-                      srcset="
-                        ./images/img1-portf-desctop.jpg    1x,
-                        ./images/img1-portf@2x-desctop.jpg 2x
-                      "
-                      type="image/jpg"
-                    />
-                    <source
-                      media="(min-width: 768px)"
-                      srcset="
-                        ./images/img1-portf-tablet.webp   1x,
-                        ./images/img1-portf@2x-tablet.jpg 2x
-                      "
-                      type="image/webp"
-                    />
-                    <source
-                      media="(min-width: 768px)"
-                      srcset="
-                        ./images/img1-portf-tablet.jpg    1x,
-                        ./images/img1-portf@2x-tablet.jpg 2x
-                      "
-                      type="image/jpg"
-                    />
-                    <source
-                      media="(max-width: 767px)"
-                      srcset="
-                        ./images/img1-portf-mobil.webp   1x,
-                        ./images/img1-portf@2x-mobil.jpg 2x
-                      "
-                      type="image/jpg"
-                    />
-                    <source
-                      media="(max-width: 767px)"
-                      srcset="
-                        ./images/img-1-portf-mobil.jpg    1x,
-                        ./images/img1-portf@2x-mobil.webp 2x
-                      "
-                      type="image/webp"
-                    />
-                    <img
-                      src="./images/img-1-portf-mobil.jpg"
-                      alt="touch screens"
-                      width="396"
-                      height="300"
-                      loading="lazy"
-                    />
-                  </picture>
-                  <p class="overlay">
-                    За додатковою інформацією звертайтеся, завжди радий проконсультувати та допомогти.
-                  </p>
-                </div>
-                <div class="works-title-text">
-                  <h2 class="works-title">Підрульовий шлейф Рено Меган 2 з круїз контролем/без круїз контролю.</h2>
-                  
-                  <p class="works-text">Шлейфи підрульового перемикача для Renault Megane 2. Відправлю Вам вже готову виставлену в положення руля при рівних колесах деталь (повністю перебрана, та усунуті вже моменти із-за яких в основному рветься шлейф) в замін на Вашу зломану, касета з новим шлейфом (шлейф Valeo). На деталь даю гарантію.</p>
-                  <p class="works-text-price">Ціна: 850 грн</p>
-                </div>
-              </a>
+              <div class="works-item-thumb">
+                <picture>
+                  <!-- WebP для десктопа -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/img1-portf-desctop.webp    1x,
+                      ./images/img1-portf@2x-desctop.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <!-- JPEG для десктопа -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/img1-portf-desctop.jpg    1x,
+                      ./images/img1-portf@2x-desctop.jpg 2x
+                    "
+                    type="image/jpeg"
+                  />
+
+                  <!-- WebP для планшета -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/img1-portf-tablet.webp    1x,
+                      ./images/img1-portf@2x-tablet.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <!-- JPEG для планшета -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/img1-portf-tablet.jpg    1x,
+                      ./images/img1-portf@2x-tablet.jpg 2x
+                    "
+                    type="image/jpeg"
+                  />
+
+                  <!-- WebP для мобільних -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/img1-portf-mobil.webp    1x,
+                      ./images/img1-portf@2x-mobil.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <!-- JPEG для мобільних -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/img1-portf-mobil.jpg    1x,
+                      ./images/img1-portf@2x-mobil.jpg 2x
+                    "
+                    type="image/jpeg"
+                  />
+
+                  <!-- Фолбек-зображення -->
+                  <img
+                    src="./images/img1-portf-mobil.jpg"
+                    alt="Підрульовий шлейф Renault Megane 2"
+                    width="396"
+                    height="300"
+                    loading="lazy"
+                  />
+                </picture>
+
+                <p class="overlay">
+                  За додатковою інформацією звертайтеся, завжди радий
+                  проконсультувати та допомогти.
+                </p>
+              </div>
+
+              <div class="works-title-text">
+                <h2 class="works-title">
+                  Підрульовий шлейф Renault Megane 2 (Рено Меган 2) з круїз
+                  контролем/без круїз контролю.
+                </h2>
+                <p class="works-text">
+                  Шлейфи підрульового перемикача для Renault Megane 2. Відправлю
+                  Вам вже готову виставлену в положення руля при рівних колесах
+                  деталь (повністю перебрана, та усунуті вже моменти із-за яких
+                  в основному рветься шлейф) в замін на Вашу зломану, касета з
+                  новим шлейфом (шлейф Valeo). На деталь даю гарантію.
+                </p>
+                <p class="works-text-price">Ціна: 850 грн</p>
+
+                <!-- Кнопка замовлення -->
+                <button
+                  class="portfolio-btn"
+                  type="button"
+                  data-modal-open
+                  aria-label="Відкрити форму для замовлення"
+                >
+                  Залишити замовлення
+                </button>
+              </div>
             </li>
-            <li class="works-item all marketing">
-              <a class="portfolio-link link" href="">
-                <div class="works-item-thumb">
-                  <picture>
-                    <source
-                      media="(min-width: 1158px)"
-                      srcset="
-                        ./images/img2-portf-desctop.webp    1x,
-                        ./images/img2-portf@2x-desctop.webp 2x
-                      "
-                      type="image/webp"
-                    />
-                    <source
-                      media="(min-width: 1158px)"
-                      srcset="
-                        ./images/img2-portf-desctop.jpg    1x,
-                        ./images/img2-portf@2x-desctop.jpg 2x
-                      "
-                      type="image/jpg"
-                    />
-                    <source
-                      media="(min-width: 768px)"
-                      srcset="
-                        ./images/img2-portf-tablet.webp    1x,
-                        ./images/img2-portf@2x-tablet.webp 2x
-                      "
-                      type="image/webp"
-                    />
-                    <source
-                      media="(min-width: 768px)"
-                      srcset="
-                        ./images/img2-portf-tablet.jpg    1x,
-                        ./images/img2-portf@2x-tablet.jpg 2x
-                      "
-                      type="image/jpg"
-                    />
-                    <source
-                      media="(max-width: 767px)"
-                      srcset="
-                        ./images/img2-portf-mobil.webp    1x,
-                        ./images/img2-portf@2x-mobil.webp 2x
-                      "
-                      type="image/webp"
-                    />
-                    <source
-                      media="(max-width: 767px)"
-                      srcset="
-                        ./images/img2-portf-mobil.jpg    1x,
-                        ./images/img2-portf@2x-mobil.jpg 2x
-                      "
-                      type="image/jpg"
-                    />
-                    <img
-                      src="./images/img2-portf-mobil.jpg"
-                      alt="payment terminal and phone"
-                      width="396"
-                      height="300"
-                      loading="lazy"
-                    />
-                  </picture>
-                  <p class="overlay">
-                    14 Stylish and User-Friendly App Design Concepts · Task
-                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
-                    App · Cloud Storage App
-                  </p>
-                </div>
-                <div class="works-title-text">
-                  <h2 class="works-title">Cashless Payment</h2>
-                  <p class="works-text">Marketing</p>
-                </div>
-              </a>
+            <li class="works-item all renault">
+              <div class="works-item-thumb">
+                <picture>
+                  <!-- WebP для десктопа -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/img2-portf-desctop.webp    1x,
+                      ./images/img2-portf@2x-desctop.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <!-- JPEG для десктопа -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/img2-portf-desctop.jpg    1x,
+                      ./images/img2-portf@2x-desctop.jpg 2x
+                    "
+                    type="image/jpeg"
+                  />
+
+                  <!-- WebP для планшета -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/img2-portf-tablet.webp    1x,
+                      ./images/img2-portf@2x-tablet.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <!-- JPEG для планшета -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/img2-portf-tablet.jpg    1x,
+                      ./images/img2-portf@2x-tablet.jpg 2x
+                    "
+                    type="image/jpeg"
+                  />
+
+                  <!-- WebP для мобільних -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/img2-portf-mobil.webp    1x,
+                      ./images/img2-portf@2x-mobil.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <!-- JPEG для мобільних -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/img2-portf-mobil.jpg    1x,
+                      ./images/img2-portf@2x-mobil.jpg 2x
+                    "
+                    type="image/jpeg"
+                  />
+
+                  <!-- Фолбек-зображення -->
+                  <img
+                    src="./images/img2-portf-mobil.jpg"
+                    alt="Підрульовий шлейф Renault Scenic 2"
+                    width="396"
+                    height="300"
+                    loading="lazy"
+                  />
+                </picture>
+
+                <p class="overlay">
+                  За додатковою інформацією звертайтеся, завжди радий
+                  проконсультувати та допомогти.
+                </p>
+              </div>
+
+              <div class="works-title-text">
+                <h2 class="works-title">
+                  Підрульовий шлейф Renault Scenic 2 (Рено Сценік 2) з круїз
+                  контролем/без круїз контролю.
+                </h2>
+                <p class="works-text">
+                  Шлейфи підрульового перемикача для Renault Scenic 2. Відправлю
+                  Вам вже готову виставлену в положення руля при рівних колесах
+                  деталь (повністю перебрана, та усунуті вже моменти із-за яких
+                  в основному рветься шлейф) в замін на Вашу зломану, касета з
+                  новим шлейфом (шлейф Valeo). На деталь даю гарантію.
+                </p>
+                <p class="works-text-price">Ціна: 900 грн</p>
+
+                <!-- Кнопка замовлення -->
+                <button
+                  class="portfolio-btn"
+                  type="button"
+                  data-modal-open
+                  aria-label="Відкрити форму для замовлення"
+                >
+                  Залишити замовлення
+                </button>
+              </div>
             </li>
             <li class="works-item all app">
               <a class="portfolio-link link" href="">
@@ -667,20 +727,22 @@
                     />
                     <img
                       src="./images/img7-portf-mobil.jpg"
-                      alt="six pictures of stories from Instagram"
+                      alt="Підрульовий шлейф Renault Megane 2"
                       width="396"
                       height="300"
                       loading="lazy"
                     />
                   </picture>
                   <p class="overlay">
-                    14 Stylish and User-Friendly App Design Concepts · Task
-                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
-                    App · Cloud Storage App
+                    За додатковою інформацією звертайтеся, завжди радий
+                    проконсультувати та допомогти.
                   </p>
                 </div>
                 <div class="works-title-text">
-                  <h2 class="works-title">Instagram Stories Concept</h2>
+                  <h2 class="works-title">
+                    Підрульовий шлейф Рено Меган 2 з круїз контролем/без круїз
+                    контролю.
+                  </h2>
                   <p class="works-text">Design</p>
                 </div>
               </a>
@@ -834,7 +896,7 @@
       </section>
     </main>
     <!-- Футер -->
-   <footer class="footer">
+    <footer class="footer">
       <div class="container footer-container">
         <div class="footer-logo-text">
           <a class="logo logo-footer link" href="./index.html"
@@ -870,8 +932,9 @@
             © 2025 Airbag cable service. Всі права захищені.
           </p>
         </div>
+      </div>
     </footer>
-     <!-- Modal window -->
+    <!-- Modal window -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-btn-close" type="button" data-modal-close>
@@ -879,7 +942,10 @@
             <use href="./images/icon.svg#icon-close-modal"></use>
           </svg>
         </button>
-        <p class="modal-text">Залиште свої контакти і ми обов'язково з Вами зв'яжемося в найкоторший термін</p>
+        <p class="modal-text">
+          Залиште свої контакти і ми обов'язково з Вами зв'яжемося в найкоторший
+          термін
+        </p>
         <form class="modal-form">
           <label class="modal-form-field">
             <span class="modal-form-input-desc">Ім'я</span>

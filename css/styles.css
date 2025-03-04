@@ -1295,10 +1295,42 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
     transition: background-color var(--transition-dur-timing-func), color var(--transition-dur-timing-func), border var(--transition-dur-timing-func), box-shadow var(--transition-dur-timing-func);
 }
 
+
+
 @media screen and (max-width: 767px) {
     .works-btn {
         padding: 8px 16px;
     }
+}
+
+.portfolio-btn {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+
+    display: block;
+    min-width: 169px;
+    height: 56px;
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    align-items: center;
+    color: var(--white-text-color);
+
+    background-color: var(--accent-color);
+
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    transition: background-color var(--transition-dur-timing-func);
+}
+
+@media screen and (max-width: 767px) {
+    .portfolio-btn {}
 }
 
 .works-item {
@@ -1318,7 +1350,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 }
 
 .works-title-text {
-    padding: 32px 16px;
+    padding: 16px;
 
     border: 1px solid var(--color-border);
     border-top: none;
@@ -1344,7 +1376,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 
 .works-text {
 
-    margin: 10px auto;
+    margin: 20px auto;
     text-indent: 30px;
     text-align: justify;
     line-height: 1.6;
@@ -1354,8 +1386,8 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 }
 
 .works-text-price {
-    text-align: end;
-    /* margin-bottom: 10px; */
+    /* text-align: end; */
+    margin-bottom: 20px;
     font-weight: 500;
     font-size: 18px;
     line-height: 1.2;
@@ -1445,6 +1477,8 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 .portfolio-link:focus .overlay {
     transform: translateY(0);
 }
+
+
 
 /**
   |============================
