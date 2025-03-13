@@ -1,35 +1,40 @@
-(() => {
-  const refs = {
-    openModalBtn: document.querySelector('[data-modal-open]'),
-    closeModalBtn: document.querySelector('[data-modal-close]'),
-    modal: document.querySelector('[data-modal]'),
-    body: document.querySelector('body'),
+function initModal() {
+  const modalRefs = {
+    openButtons: document.querySelectorAll('[data-modal-open]'),
+    closeButton: document.querySelector('[data-modal-close]'),
+    modalWindow: document.querySelector('[data-modal]'),
+    pageBody: document.body,
   };
 
-  refs.openModalBtn.addEventListener('click', openModal);
-  refs.closeModalBtn.addEventListener('click', closeModal);
-  refs.modal.addEventListener('click', backdropClick);
-  window.addEventListener('keydown', onEscKeyPress);
-
   function openModal() {
-    refs.modal.classList.remove('is-hidden');
-    refs.body.style.overflow = 'hidden';
+    modalRefs.modalWindow.classList.remove('is-hidden');
+    modalRefs.pageBody.style.overflow = 'hidden';
   }
 
   function closeModal() {
-    refs.modal.classList.add('is-hidden');
-    refs.body.style.overflow = 'auto';
+    modalRefs.modalWindow.classList.add('is-hidden');
+    modalRefs.pageBody.style.overflow = 'auto';
   }
 
-  function backdropClick(event) {
-    if (event.target === refs.modal) {
+  function closeOnBackdropClick(event) {
+    if (event.target === modalRefs.modalWindow) {
       closeModal();
     }
   }
 
-  function onEscKeyPress(event) {
+  function closeOnEscapeKey(event) {
     if (event.code === 'Escape') {
       closeModal();
     }
   }
-})();
+
+  modalRefs.openButtons.forEach(button => {
+    button.addEventListener('click', openModal);
+  });
+
+  modalRefs.closeButton.addEventListener('click', closeModal);
+  modalRefs.modalWindow.addEventListener('click', closeOnBackdropClick);
+  window.addEventListener('keydown', closeOnEscapeKey);
+}
+
+document.addEventListener('DOMContentLoaded', initModal);
