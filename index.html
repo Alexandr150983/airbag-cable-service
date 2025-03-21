@@ -1,42 +1,65 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="uk-UA">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Шлейф руля підрульовий подушки безпеки Рено Ніссан Шкода Фольксваген
-      Мітсубіши Тойота. Підрульовий перемикач Рено Кенго.
-    </title>
+    <meta
+      name="description"
+      content="Продаж і ремонт підрульовий шлейф Airbag Renault, Nissan, Mitsubishi, VW, Toyota. 
+      Підрульовий перемикач Renault Kangoo, Clio 3, Modus"
+    />
+    <title>Шлейф руля Airbag Renault, Nissan, VW, Mitsubishi, Toyota</title>
     <link
       rel="icon"
+      href="./images/favicon.png"
       type="image/png"
       sizes="48x48"
-      href="./images/favicon.png"
     />
+    <link rel="apple-touch-icon" href="./images/favicon.png" sizes="180x180" />
+    <link rel="alternate" hreflang="uk-UA" href="https://твій_домен.com/" />
+    <!-- //ATENTION!!!// -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
+      fetchpriority="high"
+      crossorigin="anonymous"
     />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+
+    <link
+      rel="preload"
+      href="./css/styles.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript><link rel="stylesheet" href="./css/styles.css" /></noscript>
+    <link
+      rel="preload"
+      href="./images/favicon.png"
+      as="image"
+      type="image/png"
+    />
+
+    <link rel="canonical" href="https://твій_домен.com/" />
+    <!-- //ATENTION!!!// -->
   </head>
   <body>
     <!-- Шапка сайту -->
     <header class="header">
       <div class="container header-container">
         <nav class="nav">
-          <a class="logo logo-header link" href="./index.html"
+          <a class="logo logo-header link" href="/"
             >Airbag cable.<span class="header-logo">service</span></a
           >
           <ul class="header-list list">
             <li class="header-item">
-              <a class="header-link link" href="./index.html">Про нас</a>
+              <a class="header-link link" href="/">Про нас</a>
             </li>
             <li class="header-item">
               <a class="header-link link" href="./portfolio.html"
@@ -123,7 +146,13 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="./images/telegram-icon.svg" alt="Telegram" />
+                <img
+                  src="./images/telegram-icon.svg"
+                  alt="Логотип Telegram для зв'язку"
+                  loading="lazy"
+                  width="32"
+                  height="32"
+                />
               </a>
             </li>
             <li class="mobil-social-item">
@@ -131,9 +160,15 @@
                 class="mobil-social-link link"
                 href="viber://chat?number=+380676319732"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
               >
-                <img src="./images/viber-icon.svg" alt="Viber" />
+                <img
+                  src="./images/viber-icon.svg"
+                  alt="Логотип Viber для зв'язку"
+                  loading="lazy"
+                  width="32"
+                  height="32"
+                />
               </a>
             </li>
           </ul>
@@ -145,9 +180,14 @@
       <section class="section-hero">
         <div class="container mobil-container">
           <h1 class="hero-title">
-            Підрульові шлейфи Air Bag SRS Renault і не тільки
+            Підрульові шлейфи Airbag SRS – Ремонт і продаж
           </h1>
-          <button class="hero-btn" type="button" data-modal-open>
+          <button
+            class="hero-btn"
+            type="button"
+            data-modal-open
+            aria-label="Залишити контакти для зворотного зв'язку"
+          >
             Залишити контакти
           </button>
         </div>
@@ -275,7 +315,13 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="./images/telegram-icon.svg" alt="Telegram" />
+                <img
+                  src="./images/telegram-icon.svg"
+                  alt="Логотип Telegram для зв'язку"
+                  loading="lazy"
+                  width="32"
+                  height="32"
+                />
               </a>
             </li>
             <li class="footer-social-list-item">
@@ -283,9 +329,15 @@
                 class="footer-social-list-link link"
                 href="viber://chat?number=+380676319732"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow noopener noreferrer"
               >
-                <img src="./images/viber-icon.svg" alt="Viber" />
+                <img
+                  src="./images/viber-icon.svg"
+                  alt="Логотип Viber для зв'язку"
+                  loading="lazy"
+                  width="32"
+                  height="32"
+                />
               </a>
             </li>
           </ul>
@@ -298,16 +350,22 @@
     <!-- Modal window -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-btn-close" type="button" data-modal-close>
+        <button
+          class="modal-btn-close"
+          type="button"
+          data-modal-close
+          aria-label="Закрити модальне вікно"
+        >
           <svg class="modal-icon" width="8" height="8">
             <use href="./images/icon.svg#icon-close-modal"></use>
           </svg>
         </button>
         <p class="modal-text">
-          Залиште свої контакти і ми обов'язково з Вами зв'яжемося в найкоторший
+          Залиште свої контакти і ми обов'язково з Вами зв'яжемося в найкоротший
           термін
         </p>
-        <form class="modal-form">
+
+        <form class="modal-form" id="contactForm">
           <label class="modal-form-field">
             <span class="modal-form-input-desc">Ім'я</span>
             <span class="modal-form-input-wrapper">
@@ -316,7 +374,7 @@
                 name="user_name"
                 type="text"
                 required
-                pattern="[a-zA-Zа-яА-Я]+"
+                pattern="[a-zA-Zа-яА-Я]+(?:[\s-][a-zA-Zа-яА-Я]+)*"
                 minlength="2"
               />
               <svg class="modal-form-input-icon" width="18" height="24">
@@ -332,8 +390,9 @@
                 name="user_phone"
                 type="tel"
                 required
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-                title="xxx-xxx-xx-xx"
+                pattern="^\+?(38)?0\d{2}[-\s]?\d{3}[-\s]?\d{2}[-\s]?\d{2}$"
+                title="Введіть номер у форматі +380671234567 або 067-123-45-67"
+                inputmode="numeric"
               />
               <svg class="modal-form-input-icon" width="18" height="24">
                 <use href="./images/icon.svg#icon-phone-black-18dp-1"></use>
@@ -364,6 +423,11 @@
           </label>
           <button class="modal-form-submit" type="submit">Відправити</button>
         </form>
+
+        <!-- Блок для повідомлення про успішну відправку -->
+        <p class="success-message is-hidden" id="successMessage">
+          ✅ Дякуємо! Ваша заявка успішно надіслана.
+        </p>
       </div>
     </div>
     <script src="./js/modal.js"></script>

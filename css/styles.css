@@ -1528,7 +1528,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 @media screen and (max-width: 1157px) {
     .modal {
         width: 392px;
-        height: 586px;
+        height: 636px;
         max-height: 100vh;
         overflow-y: scroll
     }
@@ -1802,6 +1802,18 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
     fill: var(--white-text-color);
 }
 
+
+.success-message {
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.is-hidden {
+    display: none;
+}
 
 /* :root {
     --primary-text-color: #434455;
