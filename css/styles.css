@@ -422,21 +422,52 @@ button {
         display: none;
     }
 
+    .logo {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--logo-text-color);
+    }
+
     .header-list {
         display: flex;
+        gap: 20px;
     }
 
     .contacts-list {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .header-list {
-        margin-left: 120px;
+        margin-left: 40px;
+    }
+
+    .header-link {
+        font-size: 14px;
+    }
+
+    .contacts-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts-link {
+        font-size: 12px;
+    }
+
+    .mobile-adress-link-phone {
+        font-size: 12px;
+        font-weight: 400;
     }
 
     .contacts {
         display: flex;
-        margin-left: auto;
+        margin-left: 20px;
         font-style: normal;
     }
 }
@@ -554,9 +585,9 @@ screen and (min-resolution: 2dppx) {
 
 @media screen and (min-width: 768px) {
     .section-hero {
-        padding: 112px 0px;
+        /* padding: 112px 0px; */
 
-        max-width: 768px;
+        /* max-width: 768px; */
         height: 436px;
 
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/dark-bg-tablet.jpg);
@@ -647,7 +678,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
     }
 
     .about-title {
-        text-align: left;
+        /* text-align: left; */
     }
 
     .about-list {
@@ -709,9 +740,9 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 } */
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
-    .services-container {
+    /* .services-container {
         width: 584px;
-    }
+    } */
 }
 
 .section-services {
@@ -814,12 +845,12 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 64px 24px;
+        /* gap: 64px 24px; */
     }
 
-    .services-item {
+    /* .services-item {
         width: calc((100% - 24px) / 2);
-    }
+    } */
 }
 
 @media screen and (min-width: 1158px) {
@@ -915,7 +946,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
         flex-wrap: wrap;
         gap: 72px 24px;
 
-        width: 552px;
+        /* width: 552px; */
         margin: 0 auto;
     }
 
@@ -1148,29 +1179,29 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 }
 
 @media screen and (min-width: 768px) {
-    .footer-container {
+    /* .footer-container {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: baseline;
         gap: 72px 16px;
-    }
+    } */
 
     .footer-social {
         margin: 0;
         padding: 0;
     }
 
-    .logo-footer {
+    /* .logo-footer {
         display: block;
-    }
+    } */
 
     .footer-text {
         padding: 0;
     }
 
-    .footer-text-social {
+    /* .footer-text-social {
         text-align: left;
-    }
+    } */
 
     .footer-form-text {
         text-align: left;
@@ -1186,7 +1217,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
     }
 
     .footer-social-list {
-        margin-bottom: 0;
+        margin-bottom: 16px;
     }
 }
 
@@ -1276,7 +1307,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 }
 
 .works-btn {
-    padding: 12px 24px;
+    padding: 12px;
 
     font-family: inherit;
     font-style: normal;
@@ -1345,12 +1376,29 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 
 @media screen and (min-width: 767px) and (max-width: 1157px) {
     .works-item {
-        width: calc((100% - 24px) / 2);
+        display: flex;
+        flex-direction: column;
+        /* Вміст рівномірно розподіляється */
+        flex: 1 1 calc(50% - 16px);
+        /* 2 колонки */
+        opacity: 1;
+        transition: opacity 0.3s ease-in-out;
     }
+
+    picture {
+        display: flex;
+        justify-content: center;
+    }
+
 }
 
 .works-title-text {
     padding: 16px;
+    flex-grow: 1;
+    /* Щоб блоки мали однакову висоту */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     border: 1px solid var(--color-border);
     border-top: none;
@@ -1375,7 +1423,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 }
 
 .works-text {
-
+    flex-grow: 1;
     margin: 20px auto;
     text-indent: 30px;
     text-align: justify;
@@ -1422,7 +1470,13 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 
 @media screen and (min-width: 767px) and (max-width: 1157px) {
     .works-list {
-        gap: 72px 24px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        /* Вирівнює висоти без жорсткої фіксації */
+        gap: 16px;
+        /* Відступи між елементами */
+        /* gap: 72px 24px; */
     }
 }
 
