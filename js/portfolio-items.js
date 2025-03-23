@@ -6,10 +6,11 @@ function initWorksFilter() {
     const filterValue = event.currentTarget.getAttribute('data-filter');
 
     workItems.forEach(work => {
-      work.style.display =
-        work.classList.contains(filterValue) || filterValue === 'all'
-          ? 'block'
-          : 'none';
+      if (work.classList.contains(filterValue) || filterValue === 'all') {
+        work.classList.remove('hidden');
+      } else {
+        work.classList.add('hidden');
+      }
     });
   }
 

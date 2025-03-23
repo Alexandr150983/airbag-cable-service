@@ -5,20 +5,17 @@ document.addEventListener('DOMContentLoaded', () => {
   const pageBody = document.body;
   const form = document.getElementById('contactForm');
   const successMessage = document.getElementById('successMessage');
-  const loader = document.createElement('p'); // Спінер
-  loader.textContent = '⏳ Відправка...';
-  loader.style.display = 'none';
-  form.appendChild(loader);
+  const loaderWrapper = document.querySelector('.loader-wrapper');
 
-  // Відкриття модального вікна
   openButtons.forEach(button => {
     button.addEventListener('click', () => {
       modalWindow.classList.remove('is-hidden');
       pageBody.style.overflow = 'hidden';
+
+      loaderWrapper.classList.remove('show-loader');
     });
   });
 
-  // Закриття модального вікна
   const closeModal = () => {
     modalWindow.classList.add('is-hidden');
     pageBody.style.overflow = 'auto';
@@ -33,18 +30,16 @@ document.addEventListener('DOMContentLoaded', () => {
     if (event.code === 'Escape') closeModal();
   });
 
-  // Обробка відправки форми
   form.addEventListener('submit', async event => {
     event.preventDefault();
-    loader.style.display = 'block'; // Показати спінер
-    successMessage.classList.add('is-hidden'); // Приховати старе повідомлення
+
+    loaderWrapper.classList.add('show-loader');
+    successMessage.style.display = 'none';
 
     const formData = new FormData(form);
     formData.append('_captcha', 'false');
     formData.append('_template', 'table');
     formData.append('_subject', 'Нове замовлення з сайту');
-
-    form.reset(); // Очищуємо форму відразу після натискання
 
     try {
       const response = await fetch(
@@ -56,9 +51,10 @@ document.addEventListener('DOMContentLoaded', () => {
       );
 
       if (response.ok) {
-        successMessage.classList.remove('is-hidden');
+        form.reset();
+        successMessage.style.display = 'block';
         setTimeout(() => {
-          successMessage.classList.add('is-hidden');
+          successMessage.style.display = 'none';
           closeModal();
         }, 5000);
       } else {
@@ -68,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
       alert('❌ Виникла проблема. Переконайтеся, що є Інтернет.');
       console.error('Помилка:', error);
     } finally {
-      loader.style.display = 'none'; // Приховати спінер
+      loaderWrapper.classList.remove('show-loader');
     }
   });
 });
