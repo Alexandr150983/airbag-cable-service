@@ -6,13 +6,19 @@ document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('contactForm');
   const successMessage = document.getElementById('successMessage');
   const loaderWrapper = document.querySelector('.loader-wrapper');
+  const modalProductInput = document.getElementById('modal-product-name');
 
   openButtons.forEach(button => {
     button.addEventListener('click', () => {
       modalWindow.classList.remove('is-hidden');
       pageBody.style.overflow = 'hidden';
-
       loaderWrapper.classList.remove('show-loader');
+
+      // Отримуємо назву товару з кнопки
+      const productName = button.getAttribute('data-product');
+      if (modalProductInput) {
+        modalProductInput.value = productName;
+      }
     });
   });
 
@@ -37,6 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
     successMessage.style.display = 'none';
 
     const formData = new FormData(form);
+    formData.append('product', modalProductInput.value);
     formData.append('_captcha', 'false');
     formData.append('_template', 'table');
     formData.append('_subject', 'Нове замовлення з сайту');
