@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
       pageBody.style.overflow = 'hidden';
       loaderWrapper.classList.remove('show-loader');
 
-      // Отримуємо назву товару з кнопки
       const productName = button.getAttribute('data-product');
       if (modalProductInput) {
         modalProductInput.value = productName;
