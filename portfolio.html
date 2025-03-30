@@ -24,13 +24,28 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <noscript><link rel="stylesheet" href="./css/styles.css" /></noscript>
     <link rel="canonical" href="https://airbagcableservice.in.ua/portfolio.html" />
-     <script defer src="https://www.googletagmanager.com/gtag/js?id=G-TWQQWYKSHT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+     <script>
+  let trackingEnabled = false;
+  function loadAnalytics() {
+    if (trackingEnabled) return;
+    trackingEnabled = true;
 
-  gtag('config', 'G-TWQQWYKSHT');
+    let script = document.createElement('script');
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-TWQQWYKSHT';
+    script.async = true;
+    document.body.appendChild(script);
+
+    script.onload = function () {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-TWQQWYKSHT');
+    };
+  }
+  window.addEventListener('click', loadAnalytics);
+  window.addEventListener('scroll', loadAnalytics);
 </script>
   </head>
   <body class="body">
@@ -267,6 +282,7 @@
                     alt="Підрульовий шлейф Renault Megane 2"
                     width="396"
                     height="300"
+                    loading="lazy"
                   />
                 </picture>
               </div>
@@ -2488,9 +2504,9 @@
         </p>
       </div>
     </div>
-    <script src="./js/modal.js" defer></script>
-    <script src="./js/valid-form.js" defer></script>
-    <script src="./js/portfolio-items.js" defer></script>
-    <script src="./js/mobile-menu.js" defer></script>
+    <script defer src="./js/modal.js"></script>
+    <script defer src="./js/valid-form.js"></script>
+    <script defer src="./js/portfolio-items.js"></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html
