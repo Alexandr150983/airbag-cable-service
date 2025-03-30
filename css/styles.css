@@ -497,11 +497,11 @@ button {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)),
     url(../images/dark-bg-mobil.jpg);
-
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 @supports (background-image: url(../images/dark-bg-mobil.webp)) {
@@ -520,11 +520,7 @@ screen and (min-resolution: 2dppx) {
         rgba(46, 47, 66, 0.7)),
       url(../images/dark-bg@2x-mobil.jpg);
   }
-}
 
-@media screen and (min-device-pixel-ratio: 2),
-screen and (min-resolution: 192dpi),
-screen and (min-resolution: 2dppx) {
   @supports (background-image: url(../images/dark-bg@2x-mobil.webp)) {
     .section-hero {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7),

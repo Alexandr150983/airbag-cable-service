@@ -35,18 +35,37 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <noscript><link rel="stylesheet" href="./css/styles.css" /></noscript>
     <link rel="canonical" href="https://airbagcableservice.in.ua" />
-    <script
-      defer
-      src="https://www.googletagmanager.com/gtag/js?id=G-TWQQWYKSHT"
-    ></script>
+    <link
+      rel="preload"
+      as="image"
+      href="./images/dark-bg-mobil.webp"
+      type="image/webp"
+    />
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
+      let trackingEnabled = false;
 
-      gtag('config', 'G-TWQQWYKSHT');
+      function loadAnalytics() {
+        if (trackingEnabled) return; // Щоб не завантажувати кілька разів
+        trackingEnabled = true;
+
+        let script = document.createElement('script');
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-TWQQWYKSHT';
+        script.async = true;
+        document.body.appendChild(script);
+
+        script.onload = function () {
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          gtag('js', new Date());
+          gtag('config', 'G-TWQQWYKSHT');
+        };
+      }
+
+      // Запускаємо GA4 тільки після дії користувача
+      window.addEventListener('click', loadAnalytics);
+      window.addEventListener('scroll', loadAnalytics);
     </script>
   </head>
   <body>
@@ -180,7 +199,7 @@
       <section class="section-hero">
         <div class="container mobil-container">
           <h1 class="hero-title">
-            Підрульові шлейфи Airbag SRS – Ремонт і продаж
+            Підрульовий шлейф Airbag SRS – Ремонт і продаж
           </h1>
           <button
             class="hero-btn"
@@ -438,8 +457,8 @@
         </p>
       </div>
     </div>
-    <script src="./js/mobile-menu.js" defer></script>
-    <script src="./js/modal.js" defer></script>
-    <script src="./js/valid-form.js" defer></script>
+    <script defer src="./js/mobile-menu.js"></script>
+    <script defer src="./js/modal.js"></script>
+    <script defer src="./js/valid-form.js"></script>
   </body>
 </html>
