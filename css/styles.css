@@ -628,6 +628,14 @@ screen and (min-resolution: 2dppx) {
       url(../images/dark-bg-tablet.jpg);
   }
 
+  @supports (background-image: url(../images/dark-bg-tablet.webp)) {
+    .section-hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
+        url(../images/dark-bg-tablet.webp);
+    }
+  }
+
   .hero-title {
     margin-left: auto;
     margin-right: auto;
@@ -648,6 +656,14 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
         rgba(46, 47, 66, 0.7)),
       url(../images/dark-bg@2x-tablet.jpg);
   }
+
+  @supports (background-image: url(../images/dark-bg@2x-tablet.webp)) {
+    .section-hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
+        url(../images/dark-bg@2x-tablet.webp);
+    }
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -663,6 +679,14 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
         rgba(46, 47, 66, 0.7)),
       url(../images/dark-bg-desctop.jpg);
   }
+
+  @supports (background-image: url(../images/dark-bg-desctop.webp)) {
+    .section-hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
+        url(../images/dark-bg-desctop.webp);
+    }
+  }
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
@@ -672,6 +696,14 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
       url(../images/dark-bg@2x-desctop.jpg);
+  }
+
+  @supports (background-image: url(../images/dark-bg@2x-desctop.webp)) {
+    .section-hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
+        url(../images/dark-bg@2x-desctop.webp);
+    }
   }
 }
 
