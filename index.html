@@ -40,7 +40,7 @@
       let trackingEnabled = false;
 
       function loadAnalytics() {
-        if (trackingEnabled) return; // Щоб не завантажувати кілька разів
+        if (trackingEnabled) return;
         trackingEnabled = true;
 
         let script = document.createElement('script');
@@ -57,8 +57,6 @@
           gtag('config', 'G-TWQQWYKSHT');
         };
       }
-
-      // Запускаємо GA4 тільки після дії користувача
       window.addEventListener('click', loadAnalytics);
       window.addEventListener('scroll', loadAnalytics);
     </script>
