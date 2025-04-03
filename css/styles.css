@@ -154,12 +154,44 @@ button {
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1280px;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
   }
 }
 
@@ -186,6 +218,12 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 1280px) {
+  .header-container {
+    padding: 16px;
+  }
 }
 
 /* Лого */
@@ -340,7 +378,7 @@ button {
 
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 10px;
 }
 
 .mobil-social-list {
@@ -394,7 +432,7 @@ button {
 
 .mobile-adress-link-phone {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -409,7 +447,7 @@ button {
 
 .mobile-adress-link-mail {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -440,7 +478,7 @@ button {
   .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -456,6 +494,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 4px;
   }
 
   .header-list {
@@ -505,6 +544,7 @@ button {
 
   .contacts-list {
     display: flex;
+    gap: 5px;
 
     margin-left: auto;
   }
@@ -578,9 +618,7 @@ screen and (min-resolution: 2dppx) {
   margin-right: auto;
   margin-bottom: 42px;
 
-  max-width: 320px;
-
-  font-size: 36px;
+  font-size: 32px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
@@ -639,11 +677,9 @@ screen and (min-resolution: 2dppx) {
   .hero-title {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 36px;
+    margin-bottom: 46px;
 
-    max-width: 496px;
-
-    font-size: 56px;
+    font-size: 48px;
     line-height: 1.07;
   }
 }
@@ -667,12 +703,17 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 }
 
 @media screen and (min-width: 1280px) {
+  .hero-title {
+    font-size: 56px;
+    max-width: 800px;
+  }
+
   .section-hero {
     margin-left: auto;
     margin-right: auto;
-    padding: 188px 0;
+    padding: 120px 0;
 
-    max-width: 1440px;
+    /* max-width: 1440px; */
     height: 600px;
 
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -720,7 +761,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
   margin-bottom: 8px;
 
   font-weight: 700;
-  font-size: 36px;
+  font-size: 20px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
@@ -735,11 +776,12 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
   font-weight: 500;
   color: var(--primary-text-color);
   letter-spacing: 0.02em;
+  font-size: 14px;
 }
 
 @media screen and (min-width: 768px) {
   .section-about {
-    padding: 96px 0;
+    padding: 16px 0;
     display: flex;
   }
 }
@@ -747,6 +789,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
 @media screen and (min-width: 1280px) {
   .about-container {
     margin-bottom: 8px;
+    padding: 96px 0;
 
     display: flex;
     align-items: center;
@@ -760,7 +803,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
 
   .about-title {
     font-weight: 500;
-    font-size: 56px;
+    font-size: 46px;
     line-height: 1.2;
   }
 
@@ -780,7 +823,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
   margin-bottom: 8px;
 
   font-weight: 700;
-  font-size: 36px;
+  font-size: 20px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
@@ -824,7 +867,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
 
 @media screen and (min-width: 1280px) {
   .services-title {
-    font-size: 56px;
+    font-size: 46px;
     font-weight: 500;
   }
 
@@ -857,7 +900,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
 
 .section-contacts-title {
   margin-bottom: 12px;
-
+  font-size: 20px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
@@ -1034,7 +1077,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
 */
 /* Наші роботи */
 .section-works {
-  padding-top: 96px;
+  padding-top: 72px;
   padding-bottom: 120px;
 }
 
@@ -1052,7 +1095,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
 }
 
 .filters-list {
-  margin-bottom: 72px;
+  margin-bottom: 48px;
 
   display: flex;
   justify-content: center;
