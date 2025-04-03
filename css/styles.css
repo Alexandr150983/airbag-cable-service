@@ -1090,7 +1090,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .section-works {
     padding-top: 64px;
-    padding-right: 96px;
+    /* padding-right: 96px; */
   }
 }
 
@@ -1112,6 +1112,12 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .filters-list {
     margin-bottom: 64px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .filters-list {
+    margin-bottom: 72px;
   }
 }
 
