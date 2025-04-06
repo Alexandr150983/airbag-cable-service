@@ -779,6 +779,17 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
   font-size: 14px;
 }
 
+.section-subtitle {
+  margin: 0 auto;
+  text-indent: 30px;
+  text-align: justify;
+  line-height: 1.6;
+  font-weight: 500;
+  color: var(--primary-text-color);
+  letter-spacing: 0.02em;
+  font-size: 14px;
+}
+
 @media screen and (min-width: 768px) {
   .section-about {
     padding: 16px 0;
@@ -808,6 +819,11 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
   }
 
   .about-text {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .section-subtitle {
     font-size: 22px;
     font-weight: 400;
   }
@@ -844,7 +860,15 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 2px 2px 5px 5px;
 }
-
+.services-sublist {
+  margin: 0 auto;
+  padding: 10px 20px;
+  text-align: justify;
+  line-height: 1.6;
+  font-weight: 500;
+  color: var(--primary-text-color);
+  letter-spacing: 0.02em;
+}
 .services-text {
   margin: 0 auto;
   padding: 10px 20px;
@@ -871,6 +895,10 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
     font-weight: 500;
   }
 
+  .services-sublist {
+    font-size: 22px;
+    font-weight: 400;
+  }
   .services-text {
     font-size: 22px;
     font-weight: 400;
