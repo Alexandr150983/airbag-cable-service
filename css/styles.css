@@ -616,7 +616,7 @@ screen and (min-resolution: 2dppx) {
 .hero-title {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 42px;
+  margin-bottom: 32px;
 
   font-size: 32px;
   line-height: 1.11;
@@ -677,7 +677,7 @@ screen and (min-resolution: 2dppx) {
   .hero-title {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 46px;
+    margin-bottom: 42px;
 
     font-size: 48px;
     line-height: 1.07;
@@ -706,6 +706,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .hero-title {
     font-size: 56px;
     max-width: 800px;
+    margin-bottom: 42px;
   }
 
   .section-hero {
