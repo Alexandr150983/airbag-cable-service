@@ -9,7 +9,7 @@
   --accent-text-color: #404bbf;
 
   --primary-bg-color: #f4f4fd;
-  --secondary-bg-color: #2e2f42;
+  --secondary-bg-color: #1b1e30;
   --white-bg-color: #ffffff;
   --accent-bg-color: #404bbf;
   --modal-bg-color: #fcfcfc;
@@ -990,7 +990,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
   justify-content: center;
 
   margin-bottom: 8px;
-  text-shadow: 0 0 2px rgba(0,0,0,0.5);
 }
 
 @media screen and (max-width: 767px) {
