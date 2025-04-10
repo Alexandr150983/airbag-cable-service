@@ -3,6 +3,7 @@
   --additional-text-color: #f4f4fd;
   --white-text-color: #ffffff;
   --logo-text-color: #4d5ae5;
+  --footer-logo-color: #b4b9ff;
   --title-text-color: #2e2f42;
   --form-text-color: #8e8f99;
   --secondary-form-text-color: #4d5ae5;
@@ -235,6 +236,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-text-color);
+  
 }
 
 .header-logo {
@@ -995,6 +997,9 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
 @media screen and (max-width: 767px) {
   .footer-logo-text {
     margin-bottom: 32px;
+  }
+  .footer .logo {
+    color: var(--footer-logo-color);
   }
 }
 
