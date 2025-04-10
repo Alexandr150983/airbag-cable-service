@@ -236,7 +236,6 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-text-color);
-  
 }
 
 .header-logo {
@@ -579,8 +578,10 @@ button {
   height: 359px;
 
   background-color: var(--secondary-bg-color);
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)),
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
     url(../images/dark-bg-mobil.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -591,25 +592,31 @@ button {
 
 @supports (background-image: url(../images/dark-bg-mobil.webp)) {
   .section-hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
       url(../images/dark-bg-mobil.webp);
   }
 }
 
 @media screen and (min-device-pixel-ratio: 2),
-screen and (min-resolution: 192dpi),
-screen and (min-resolution: 2dppx) {
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
   .section-hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
       url(../images/dark-bg@2x-mobil.jpg);
   }
 
   @supports (background-image: url(../images/dark-bg@2x-mobil.webp)) {
     .section-hero {
-      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)),
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
         url(../images/dark-bg@2x-mobil.webp);
     }
   }
@@ -663,15 +670,19 @@ screen and (min-resolution: 2dppx) {
   .section-hero {
     height: 436px;
 
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
       url(../images/dark-bg-tablet.jpg);
   }
 
   @supports (background-image: url(../images/dark-bg-tablet.webp)) {
     .section-hero {
-      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)),
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
         url(../images/dark-bg-tablet.webp);
     }
   }
@@ -687,18 +698,22 @@ screen and (min-resolution: 2dppx) {
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-screen and (min-resolution: 192dpi) and (min-width: 768px),
-screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .section-hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
       url(../images/dark-bg@2x-tablet.jpg);
   }
 
   @supports (background-image: url(../images/dark-bg@2x-tablet.webp)) {
     .section-hero {
-      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)),
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
         url(../images/dark-bg@2x-tablet.webp);
     }
   }
@@ -719,33 +734,41 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
     /* max-width: 1440px; */
     height: 600px;
 
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
       url(../images/dark-bg-desctop.jpg);
   }
 
   @supports (background-image: url(../images/dark-bg-desctop.webp)) {
     .section-hero {
-      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)),
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
         url(../images/dark-bg-desctop.webp);
     }
   }
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
-screen and (min-resolution: 192dpi) and (min-width: 1280px),
-screen and (min-resolution: 2dppx) and (min-width: 1280px) {
+  screen and (min-resolution: 192dpi) and (min-width: 1280px),
+  screen and (min-resolution: 2dppx) and (min-width: 1280px) {
   .section-hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
       url(../images/dark-bg@2x-desctop.jpg);
   }
 
   @supports (background-image: url(../images/dark-bg@2x-desctop.webp)) {
     .section-hero {
-      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)),
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
         url(../images/dark-bg@2x-desctop.webp);
     }
   }
@@ -1497,7 +1520,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
   border-color: var(--accent-color);
 }
 
-.modal-form-input:focus+.modal-form-input-icon {
+.modal-form-input:focus + .modal-form-input-icon {
   fill: var(--secondary-acent-fill-color);
 }
 
@@ -1559,7 +1582,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
   color: rgba(46, 47, 66, 0.4);
 }
 
-.modal-form-check:focus+.modal-form-psevdo-checkbox {
+.modal-form-check:focus + .modal-form-psevdo-checkbox {
   outline: none;
 
   border-color: var(--accent-color);
@@ -1580,13 +1603,13 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
   transition: border-color var(--transition-dur-timing-func);
 }
 
-.modal-form-check:checked+.modal-form-psevdo-checkbox {
+.modal-form-check:checked + .modal-form-psevdo-checkbox {
   background-color: var(--accent-bg-color);
 
   border-color: var(--accent-bg-color);
 }
 
-.modal-form-check:checked+.modal-form-psevdo-checkbox .checkbox-icon {
+.modal-form-check:checked + .modal-form-psevdo-checkbox .checkbox-icon {
   fill: var(--primary-fill-color);
 
   opacity: 1;
