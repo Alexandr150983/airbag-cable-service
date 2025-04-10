@@ -982,7 +982,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
 }
 
 .footer-logo {
-  color: var(--additional-text-color);
+  color: var(--white-text-color);
 }
 
 .logo-footer {
@@ -1000,7 +1000,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
 
 .footer-text {
   letter-spacing: 0.02em;
-  color: var(--additional-text-color);
+  color: var(--white-text-color);
 }
 
 .footer-social-list {
