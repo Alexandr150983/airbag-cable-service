@@ -208,6 +208,26 @@ button {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
+.language-switcher {
+  /* text-align: center; */
+  padding: 2px 4px;
+  font-size: 14px;
+}
+
+.language-link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  padding: 0 4px;
+}
+
+.language-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+  color: var(--accent-color);
+}
+
+
+
 @media screen and (max-width: 767px) {
   .header {
     padding-top: 24px;
@@ -441,10 +461,20 @@ button {
 }
 
 @media screen and (max-width: 427px) {
-  .mobile-adress-link-phone {
+  .language-switcher {
+    text-align: center;
+    padding: 1px 2px;
+    font-size: 10px;
+  }
+
+  .logo {
+    font-size: 12px;
+  }
+obile-adress-link-phone {
     font-size: 24px;
   }
 }
+
 
 .mobile-adress-link-mail {
   font-weight: 500;
@@ -488,7 +518,7 @@ button {
 
   .header-list {
     display: flex;
-    gap: 20px;
+    gap: 10px;
   }
 
   .contacts-list {
@@ -499,7 +529,7 @@ button {
   }
 
   .header-list {
-    margin-left: 40px;
+    margin-left: 10px;
   }
 
   .header-link {
@@ -522,9 +552,26 @@ button {
 
   .contacts {
     display: flex;
-    margin-left: 20px;
+    margin-left: 10px;
     font-style: normal;
   }
+}
+
+@media screen and (min-width: 1024px) {
+  .header-list {
+    margin-left: 66px;
+    gap: 20px;
+  }
+
+  .contacts-list {
+    margin-left: 40px;
+  }
+
+  .header-list {
+    margin-left: 166px;
+    gap: 20px;
+  }
+  
 }
 
 /* Десктоп */
@@ -533,21 +580,27 @@ button {
     font-size: 22px;
   }
 
+  .language-switcher {
+    display: flex;
+    align-items: end;
+    font-size: 22px;
+  }
+  
   .header-link {
     font-size: 22px;
     font-weight: 500;
   }
 
   .header-list {
-    margin-left: 76px;
-    gap: 60px;
+    margin-left: 66px;
+    gap: 20px;
   }
 
   .contacts-list {
+    margin-left: 20px;
     display: flex;
     gap: 5px;
 
-    margin-left: auto;
   }
 
   .contacts-link {
@@ -664,6 +717,32 @@ button {
 .hero-btn:focus {
   outline: none;
   background-color: var(--accent-bg-color);
+}
+
+@media screen and (max-width: 427px) {
+  .hero-title {
+    font-size: 22px;
+  }
+  .hero-btn {
+    padding: 6px;
+    min-width: 119px;
+    height: 46px;
+}
+
+.section-hero {
+  height: 269px;
+}
+
+.mobile-adress-link-phone {
+  font-size: 22px;
+}
+.mobile-adress-link-mail {
+  font-size: 16px;
+}
+
+.mobil-nav-link {
+  font-size: 32px;
+}
 }
 
 @media screen and (min-width: 768px) {

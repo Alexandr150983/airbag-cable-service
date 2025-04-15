@@ -1,14 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+>
+  <!-- UA: Головна -->
   <url>
     <loc>https://airbagcableservice.in.ua/</loc>
-    <lastmod>2025-03-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk-UA" href="https://airbagcableservice.in.ua/" />
+    <xhtml:link rel="alternate" hreflang="ru-UA" href="https://airbagcableservice.in.ua/ru/index.html" />
+    <lastmod>2025-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- UA: Портфоліо -->
   <url>
     <loc>https://airbagcableservice.in.ua/portfolio.html</loc>
-    <lastmod>2025-03-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="uk-UA" href="https://airbagcableservice.in.ua/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="ru-UA" href="https://airbagcableservice.in.ua/ru/portfolio.html" />
+    <lastmod>2025-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- RU: Головна -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/ru/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk-UA" href="https://airbagcableservice.in.ua/" />
+    <xhtml:link rel="alternate" hreflang="ru-UA" href="https://airbagcableservice.in.ua/ru/index.html" />
+    <lastmod>2025-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- RU: Портфоліо -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/ru/portfolio.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk-UA" href="https://airbagcableservice.in.ua/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="ru-UA" href="https://airbagcableservice.in.ua/ru/portfolio.html" />
+    <lastmod>2025-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
