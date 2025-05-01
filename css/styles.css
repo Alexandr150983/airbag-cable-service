@@ -1384,14 +1384,14 @@ obile-adress-link-phone {
 }
 
 .works-title a {
-  /* text-decoration: none; */
-  color: inherit;
+  text-decoration: none;
+  color: var(--accent-color);
   font: inherit;
 }
 
 .works-title a:hover,
 .works-title a:focus {
-  color: var(--accent-text-color);
+  color: var(--accent-bg-color);
 }
 
 .works-text {
