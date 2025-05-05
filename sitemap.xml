@@ -7,7 +7,7 @@
   <url>
     <loc>https://airbagcableservice.in.ua/</loc>
     <xhtml:link rel="alternate" hreflang="uk-UA" href="https://airbagcableservice.in.ua/" />
-    <xhtml:link rel="alternate" hreflang="ru-UA" href="https://airbagcableservice.in.ua/ru/index.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/index.html" />
     <lastmod>2025-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -17,7 +17,7 @@
   <url>
     <loc>https://airbagcableservice.in.ua/portfolio.html</loc>
     <xhtml:link rel="alternate" hreflang="uk-UA" href="https://airbagcableservice.in.ua/portfolio.html" />
-    <xhtml:link rel="alternate" hreflang="ru-UA" href="https://airbagcableservice.in.ua/ru/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/portfolio.html" />
     <lastmod>2025-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -27,7 +27,7 @@
   <url>
     <loc>https://airbagcableservice.in.ua/ru/index.html</loc>
     <xhtml:link rel="alternate" hreflang="uk-UA" href="https://airbagcableservice.in.ua/" />
-    <xhtml:link rel="alternate" hreflang="ru-UA" href="https://airbagcableservice.in.ua/ru/index.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/index.html" />
     <lastmod>2025-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -37,7 +37,7 @@
   <url>
     <loc>https://airbagcableservice.in.ua/ru/portfolio.html</loc>
     <xhtml:link rel="alternate" hreflang="uk-UA" href="https://airbagcableservice.in.ua/portfolio.html" />
-    <xhtml:link rel="alternate" hreflang="ru-UA" href="https://airbagcableservice.in.ua/ru/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/portfolio.html" />
     <lastmod>2025-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -47,7 +47,7 @@
   <url>
     <loc>https://airbagcableservice.in.ua/products/renault-megane-2.html</loc>
     <xhtml:link rel="alternate" hreflang="uk-UA" href="https://airbagcableservice.in.ua/products/renault-megane-2.html" />
-    <xhtml:link rel="alternate" hreflang="ru-UA" href="https://airbagcableservice.in.ua/ru/products/renault-megane-2.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/renault-megane-2.html" />
     <lastmod>2025-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -57,7 +57,7 @@
   <url>
     <loc>https://airbagcableservice.in.ua/ru/products/renault-megane-2.html</loc>
     <xhtml:link rel="alternate" hreflang="uk-UA" href="https://airbagcableservice.in.ua/products/renault-megane-2.html" />
-    <xhtml:link rel="alternate" hreflang="ru-UA" href="https://airbagcableservice.in.ua/ru/products/renault-megane-2.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/renault-megane-2.html" />
     <lastmod>2025-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -67,18 +67,38 @@
   <url>
     <loc>https://airbagcableservice.in.ua/products/renault-scenic-2.html</loc>
     <xhtml:link rel="alternate" hreflang="uk-UA" href="https://airbagcableservice.in.ua/products/renault-scenic-2.html" />
-    <xhtml:link rel="alternate" hreflang="ru-UA" href="https://airbagcableservice.in.ua/ru/products/renault-scenic-2.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/renault-scenic-2.html" />
     <lastmod>2025-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
-  <!-- RU: Продукт Renault Megane 2 -->
+  <!-- RU: Продукт Renault Scenic 2 -->
   <url>
     <loc>https://airbagcableservice.in.ua/ru/products/renault-scenic-2.html</loc>
     <xhtml:link rel="alternate" hreflang="uk-UA" href="https://airbagcableservice.in.ua/products/renault-scenic-2.html" />
-    <xhtml:link rel="alternate" hreflang="ru-UA" href="https://airbagcableservice.in.ua/ru/products/renault-scenic-2.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/renault-scenic-2.html" />
     <lastmod>2025-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+.<!-- UA: Продукт Renault Kangoo 2 -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/products/renault-kangoo-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk-UA" href="https://airbagcableservice.in.ua/products/renault-kangoo-2.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/renault-kangoo-2.html" />
+    <lastmod>2025-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- RU: Продукт Renault Kangoo 2 -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/ru/products/renault-kangoo-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk-UA" href="https://airbagcableservice.in.ua/products/renault-kangoo-2.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/renault-kangoo-2.html" />
+    <lastmod>2025-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
