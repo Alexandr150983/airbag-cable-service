@@ -1863,6 +1863,17 @@ obile-adress-link-phone {
   color: var(--accent-text-color);
 }
 
+.works-text a {
+  text-decoration: none;
+  color: var(--accent-color);
+  font: inherit;
+
+}
+
+.works-text a:hover,
+.works-text a:focus {
+  color: var(--accent-bg-color);
+}
 
 .faq-section {
   margin-top: 3rem;
