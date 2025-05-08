@@ -103,4 +103,24 @@
     <priority>0.7</priority>
   </url>
 
+<!-- UA: Продукт Renault Clio 3 Renault Modus -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/products/renault-clio-3.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/renault-clio-3.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/renault-clio-3.html" />
+    <lastmod>2025-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- RU: Продукт Clio 3 Renault Modus -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/ru/products/renault-clio-3.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/renault-clio-3.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/renault-clio-3.html" />
+    <lastmod>2025-05-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
