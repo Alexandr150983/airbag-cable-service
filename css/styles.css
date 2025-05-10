@@ -1384,7 +1384,7 @@ obile-adress-link-phone {
 }
 
 .works-title a {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: var(--accent-color);
   font: inherit;
 }
@@ -1864,7 +1864,7 @@ obile-adress-link-phone {
 }
 
 .works-text a {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: var(--accent-color);
   font: inherit;
 
