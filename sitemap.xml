@@ -183,4 +183,84 @@
     <priority>0.7</priority>
   </url>
 
+<!-- UA: Продукт Renault Laguna 2 -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/products/renault-laguna-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/renault-laguna-2.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/renault-laguna-2.html" />
+    <lastmod>2025-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+ 
+  <!-- RU: Продукт Renault Laguna 2  -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/ru/products/renault-laguna-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/renault-laguna-2.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/renault-laguna-2.html" />
+    <lastmod>2025-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+<!-- UA: Продукт Renault Logan -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/products/renault-logan.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/renault-logan.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/renault-logan.html" />
+    <lastmod>2025-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+ 
+  <!-- RU: Продукт Renault Logan  -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/ru/products/renault-logan.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/renault-logan.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/renault-logan.html" />
+    <lastmod>2025-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+<!-- UA: Продукт Renault Symbol Thalia -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/products/renault-symbol.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/renault-symbol.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/renault-symbol.html" />
+    <lastmod>2025-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+ 
+  <!-- RU: Продукт Renault Symbol Thalia  -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/ru/products/renault-symbol.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/renault-symbol.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/renault-symbol.html" />
+    <lastmod>2025-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+<!-- UA: Продукт Renault Trafic 2, Opel Vivaro 2 -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/products/renault-trafic-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/renault-trafic-2.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/renault-trafic-2.html" />
+    <lastmod>2025-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+ 
+  <!-- RU: Продукт Renault Trafic 2, Opel Vivaro 2 -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/ru/products/renault-trafic-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/renault-trafic-2.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/renault-trafic-2.html" />
+    <lastmod>2025-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
