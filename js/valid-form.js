@@ -6,7 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const phoneValue = phoneInput.value.trim();
 
     if (!/^\+380\d{9}$/.test(phoneValue)) {
-      alert('❌ Введіть правильний номер у форматі +380XXXXXXXXX');
+      alert('❌ Введіть номер у форматі +380XXXXXXXXX (тільки цифри)');
+      phoneInput.focus();
       event.preventDefault();
     }
   });
