@@ -263,4 +263,24 @@
     <priority>0.7</priority>
   </url>
 
+<!-- UA: Продукт Volkswagen, Skoda, Seat 5k0953569 -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/products/wag-group.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/wag-group.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/wag-group.html" />
+    <lastmod>2025-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+ 
+  <!-- RU: Продукт Volkswagen, Skoda, Seat 5k0953569-->
+  <url>
+    <loc>https://airbagcableservice.in.ua/ru/products/wag-group.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/wag-group.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/wag-group.html" />
+    <lastmod>2025-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
