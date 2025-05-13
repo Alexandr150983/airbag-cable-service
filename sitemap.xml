@@ -323,4 +323,24 @@
     <priority>0.7</priority>
   </url>
 
+<!-- UA: Продукт Nissan Qashqai -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/products/nissan-qashqai.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/nissan-qashqai.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/nissan-qashqai.html" />
+    <lastmod>2025-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+ 
+  <!-- RU: Продукт Nissan Qashqai-->
+  <url>
+    <loc>https://airbagcableservice.in.ua/ru/products/nissan-qashqai.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/nissan-qashqai.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/nissan-qashqai.html" />
+    <lastmod>2025-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
