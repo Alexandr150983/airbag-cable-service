@@ -18,7 +18,7 @@
     <loc>https://airbagcableservice.in.ua/portfolio.html</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/portfolio.html" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/portfolio.html" />
-    <lastmod>2025-05-11</lastmod>
+    <lastmod>2025-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -38,7 +38,7 @@
     <loc>https://airbagcableservice.in.ua/ru/portfolio.html</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/portfolio.html" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/portfolio.html" />
-    <lastmod>2025-05-11</lastmod>
+    <lastmod>2025-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -339,6 +339,87 @@
     <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/nissan-qashqai.html" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/nissan-qashqai.html" />
     <lastmod>2025-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+<!-- UA: Продукт Mitsubishi Colt -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/products/mitsubishi-colt.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/mitsubishi-colt.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/mitsubishi-colt.html" />
+    <lastmod>2025-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+ 
+  <!-- RU: Продукт Mitsubishi Colt-->
+  <url>
+    <loc>https://airbagcableservice.in.ua/ru/products/mitsubishi-colt.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/mitsubishi-colt.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/mitsubishi-colt.html" />
+    <lastmod>2025-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+<!-- UA: Продукт 8619A017 Mitsubishi Outlander, Mitsubishi Pajero Sport, Mitsubishi L200 -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/products/mitsubishi-8619a017.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/mitsubishi-8619a017.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/mitsubishi-8619a017.html" />
+    <lastmod>2025-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+ 
+  <!-- RU: Продукт 8619A017 Mitsubishi Outlander, Mitsubishi Pajero Sport, Mitsubishi L200-->
+  <url>
+    <loc>https://airbagcableservice.in.ua/ru/products/mitsubishi-8619a017.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/mitsubishi-8619a017.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/mitsubishi-8619a017.html" />
+    <lastmod>2025-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+<!-- UA: Продукт Mr583930 Mitsubishi Lancer 9 -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/products/mitsubishi-mr583930.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/mitsubishi-mr583930.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/mitsubishi-mr583930.html" />
+    <lastmod>2025-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+ 
+  <!-- RU: Продукт Mr583930 Mitsubishi Lancer 9-->
+  <url>
+    <loc>https://airbagcableservice.in.ua/ru/products/mitsubishi-mr583930.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/mitsubishi-mr583930.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/mitsubishi-mr583930.html" />
+    <lastmod>2025-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+
+<!-- UA: Продукт 8619A018 Mitsubishi Lancer 10, Pagero IV, Outlander XL, Grandis -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/products/mitsubishi-8619a018.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/mitsubishi-8619a018.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/mitsubishi-8619a018.html" />
+    <lastmod>2025-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+ 
+  <!-- 8619A018 Mitsubishi Lancer 10, Pagero IV, Outlander XL, Grandis-->
+  <url>
+    <loc>https://airbagcableservice.in.ua/ru/products/mitsubishi-8619a018.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/mitsubishi-8619a018.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/mitsubishi-8619a018.html" />
+    <lastmod>2025-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
