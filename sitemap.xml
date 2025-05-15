@@ -18,7 +18,7 @@
     <loc>https://airbagcableservice.in.ua/portfolio.html</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/portfolio.html" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/portfolio.html" />
-    <lastmod>2025-05-14</lastmod>
+    <lastmod>2025-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -38,7 +38,7 @@
     <loc>https://airbagcableservice.in.ua/ru/portfolio.html</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/portfolio.html" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/portfolio.html" />
-    <lastmod>2025-05-14</lastmod>
+    <lastmod>2025-05-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -414,12 +414,92 @@
     <priority>0.7</priority>
   </url>
  
-  <!-- 8619A018 Mitsubishi Lancer 10, Pagero IV, Outlander XL, Grandis-->
+  <!-- RU: Продукт 8619A018 Mitsubishi Lancer 10, Pagero IV, Outlander XL, Grandis-->
   <url>
     <loc>https://airbagcableservice.in.ua/ru/products/mitsubishi-8619a018.html</loc>
     <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/mitsubishi-8619a018.html" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/mitsubishi-8619a018.html" />
     <lastmod>2025-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+<!-- UA: Продукт Toyota, Lexus 84306-48030 -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/products/toyota-lexus.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/toyota-lexus.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/toyota-lexus.html" />
+    <lastmod>2025-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+ 
+  <!-- RU: Продукт Toyota, Lexus 84306-48030-->
+  <url>
+    <loc>https://airbagcableservice.in.ua/ru/products/toyota-lexus.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/toyota-lexus.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/toyota-lexus.html" />
+    <lastmod>2025-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+<!-- UA: Продукт підрульові шлейфи на різні авто -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/products/others-avto.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/others-avto.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/others-avto.html" />
+    <lastmod>2025-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+ 
+  <!-- RU: Продукт подрулевые шлейфы на различные автомобили-->
+  <url>
+    <loc>https://airbagcableservice.in.ua/ru/products/others-avto.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/others-avto.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/others-avto.html" />
+    <lastmod>2025-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+<!-- UA: Продукт підрульовий перемикач Renault Kangoo 2 Kangoo 3, Renault Clio 3, Renault Modus -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/products/peremikach-renault.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/peremikach-renault.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/peremikach-renault.html" />
+    <lastmod>2025-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+ 
+  <!-- RU: Продукт подрулевой переключатель Renault Kangoo 2 Kangoo 3, Renault Clio 3, Renault Modus-->
+  <url>
+    <loc>https://airbagcableservice.in.ua/ru/products/peremikach-renault.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/peremikach-renault.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/peremikach-renault.html" />
+    <lastmod>2025-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+<!-- UA: Продукт блок захисту підрульового перемикача Renault Kangoo 2, Kangoo 3, Clio 3, Modus -->
+  <url>
+    <loc>https://airbagcableservice.in.ua/products/blokzahistu-renault.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/blokzahistu-renault.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/blokzahistu-renault.html" />
+    <lastmod>2025-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+ 
+  <!-- RU: Продукт блок защиты подрулевого переключателя Renault Kangoo 2, Kangoo 3, Clio 3, Modus-->
+  <url>
+    <loc>https://airbagcableservice.in.ua/ru/products/blokzahistu-renault.html</loc>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://airbagcableservice.in.ua/products/blokzahistu-renaultt.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://airbagcableservice.in.ua/ru/products/blokzahistu-renault.html" />
+    <lastmod>2025-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
