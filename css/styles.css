@@ -1846,6 +1846,7 @@ obile-adress-link-phone {
 
 .back-link {
   text-decoration: none;
+  color: var(--accent-color);
 }
 
 .back-link {
