@@ -79,6 +79,7 @@ button {
 }
 
 .visually-hidden {
+  font-size: 32px;
   position: absolute;
   width: 1px;
   height: 1px;
