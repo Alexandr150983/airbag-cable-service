@@ -1936,3 +1936,33 @@ obile-adress-link-phone {
   width: 100%;
   height: 100%;
 }
+
+.youtube-lazy {
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+  margin: 2rem auto;
+  cursor: pointer;
+  aspect-ratio: 16 / 9;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.youtube-lazy-thumbnail {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.youtube-lazy-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 68px;
+  height: 48px;
+  background: url('https://www.youtube.com/yts/imgbin/player-common-vflB9mGd0.webp') no-repeat center center;
+  background-size: contain;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
