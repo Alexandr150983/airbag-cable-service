@@ -581,16 +581,23 @@
                 role="button"
                 aria-label="Відтворити відео"
               >
-                <div
-                  class="youtube-lazy-thumbnail"
-                  style="
-                    background-image: url('https://img.youtube.com/vi/mJCHOL8gpO8/hqdefault.jpg');
-                  "
-                >
-                  <div
+                <div class="youtube-lazy-thumbnail">
+                  <!-- Embedded SVG Play Button -->
+                  <svg
                     class="youtube-lazy-play-button"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 68 48"
+                    width="68"
+                    height="48"
                     aria-hidden="true"
-                  ></div>
+                  >
+                    <path
+                      class="ytp-large-play-button-bg"
+                      fill="#f00"
+                      d="M.66,37.8c0,5.4,4.4,9.8,9.8,9.8h47.1c5.4,0,9.8-4.4,9.8-9.8V10.2c0-5.4-4.4-9.8-9.8-9.8H10.5C5.1,0.4,0.7,4.8,0.7,10.2v27.6Z"
+                    />
+                    <path fill="#fff" d="M45.5,24L27.5,14v20l18-10Z" />
+                  </svg>
                 </div>
               </div>
             </div>
@@ -748,28 +755,25 @@
     <script defer src="../js/mobile-menu.js"></script>
     <script>
       document.addEventListener('DOMContentLoaded', function () {
-        document.querySelectorAll('.youtube-lazy').forEach(function (el) {
-          el.addEventListener('click', function () {
-            const videoId = el.getAttribute('data-id');
+        const lazyVideos = document.querySelectorAll('.youtube-lazy');
+        lazyVideos.forEach(function (video) {
+          video.addEventListener('click', function () {
+            const videoId = this.dataset.id;
             const iframe = document.createElement('iframe');
             iframe.setAttribute(
               'src',
-              'https://www.youtube-nocookie.com/embed/' +
-                videoId +
-                '?autoplay=1&rel=0'
+              `https://www.youtube.com/embed/${videoId}?autoplay=1`
             );
             iframe.setAttribute('frameborder', '0');
+            iframe.setAttribute('allowfullscreen', '');
             iframe.setAttribute(
               'allow',
               'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
             );
-            iframe.setAttribute('allowfullscreen', 'true');
-            iframe.setAttribute('title', 'YouTube відео');
             iframe.style.width = '100%';
             iframe.style.height = '100%';
-            el.innerHTML = '';
-            el.appendChild(iframe);
-            el.classList.remove('youtube-lazy');
+            this.innerHTML = '';
+            this.appendChild(iframe);
           });
         });
       });
