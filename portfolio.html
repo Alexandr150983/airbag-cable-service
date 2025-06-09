@@ -75,29 +75,20 @@
         ]
       }
       </script>
-    <script>
-      let trackingEnabled = false;
-      function loadAnalytics() {
-        if (trackingEnabled) return;
-        trackingEnabled = true;
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TWQQWYKSHT"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17177166571"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        let script = document.createElement('script');
-        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-TWQQWYKSHT';
-        script.async = true;
-        document.body.appendChild(script);
+  // Google Analytics
+  gtag('config', 'G-TWQQWYKSHT');
 
-        script.onload = function () {
-          window.dataLayer = window.dataLayer || [];
-          function gtag() {
-            dataLayer.push(arguments);
-          }
-          gtag('js', new Date());
-          gtag('config', 'G-TWQQWYKSHT');
-        };
-      }
-      window.addEventListener('click', loadAnalytics);
-      window.addEventListener('scroll', loadAnalytics);
-    </script>
+  // Google Ads
+  gtag('config', 'AW-17177166571');
+</script>
   </head>
   <body class="body">
     <!-- Шапка сайту -->
