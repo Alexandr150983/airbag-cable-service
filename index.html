@@ -82,33 +82,14 @@
         }
       }
     </script>
-    <script>
-      let trackingEnabled = false;
-
-      function loadAnalytics() {
-        if (trackingEnabled) return;
-        trackingEnabled = true;
-
-        let script = document.createElement('script');
-        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-TWQQWYKSHT';
-        script.async = true;
-        document.body.appendChild(script);
-
-        script.onload = function () {
-          window.dataLayer = window.dataLayer || [];
-          function gtag() {
-            dataLayer.push(arguments);
-          }
-
-          gtag('js', new Date());
-          gtag('config', 'G-TWQQWYKSHT'); // Google Analytics
-          gtag('config', 'AW-17177166571'); // Google Ads
-        };
-      }
-
-      window.addEventListener('click', loadAnalytics);
-      window.addEventListener('scroll', loadAnalytics);
-    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TWQQWYKSHT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-TWQQWYKSHT');
+  gtag('config', 'AW-17177166571');
+</script>
   </head>
   <body>
     <!-- Шапка сайту -->
