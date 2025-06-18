@@ -56,30 +56,32 @@
       content="https://airbagcableservice.in.ua/products/peremikach-renault.html"
     />
     <script>
-  let trackingEnabled = false;
+      let trackingEnabled = false;
 
-  function loadAnalytics() {
-    if (trackingEnabled) return;
-    trackingEnabled = true;
+      function loadAnalytics() {
+        if (trackingEnabled) return;
+        trackingEnabled = true;
 
-    let script = document.createElement('script');
-    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-TWQQWYKSHT';
-    script.async = true;
-    document.body.appendChild(script);
+        let script = document.createElement('script');
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-TWQQWYKSHT';
+        script.async = true;
+        document.body.appendChild(script);
 
-    script.onload = function () {
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
+        script.onload = function () {
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
 
-      gtag('js', new Date());
-      gtag('config', 'G-TWQQWYKSHT');      // Google Analytics
-      gtag('config', 'AW-17177166571');   // Google Ads
-    };
-  }
+          gtag('js', new Date());
+          gtag('config', 'G-TWQQWYKSHT'); // Google Analytics
+          gtag('config', 'AW-17177166571'); // Google Ads
+        };
+      }
 
-  window.addEventListener('click', loadAnalytics);
-  window.addEventListener('scroll', loadAnalytics);
-</script>
+      window.addEventListener('click', loadAnalytics);
+      window.addEventListener('scroll', loadAnalytics);
+    </script>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -444,21 +446,38 @@
               </div>
               <div class="works-title-text">
                 <h1 class="works-title">
-                   Підрульовий перемикач Renault Kangoo 2
+                  Підрульовий перемикач Renault Kangoo 2
                 </h1>
-                <h2 class="works-title">Ремонт та продаж підрульових перемикачів Рено</h2>
+                <h2 class="works-title">
+                  Ремонт та продаж підрульових перемикачів Рено
+                </h2>
                 <div class="works-text">
-                  <p>Продаж, ремонт та відновлення правих підрульових перемикачів (склоочисники / омивач) на автомобілі Рено Кенго 2, Кенго 3, Кліо 3, Модус. Можливе оновлення вашого перемикача та встановлення на нього блоку захисту, щоб він більше не згорав.</p>
-                  <p>На період відновлення надішлемо вам запасну деталь. Або можемо відразу надіслати вже відновлений елемент в обмін на вашу несправну деталь. Якщо у вас вже є згорілий перемикач — можемо його викупити, ціна залежить від ступеня пошкодження.</p>  
-                  <p>Підрульовий перемикач Renault Kangoo 2, Kangoo 3, Renault Clio 3, Renault Modus купити в Україні легко — швидка відправка та гарантія якості.</p>
-                    </div> 
-                  <ul class="works-text-list list">
+                  <p>
+                    Продаж, ремонт та відновлення правих підрульових перемикачів
+                    (склоочисники / омивач) на автомобілі Рено Кенго 2, Кенго 3,
+                    Кліо 3, Модус. Можливе оновлення вашого перемикача та
+                    встановлення на нього блоку захисту, щоб він більше не
+                    згорав.
+                  </p>
+                  <p>
+                    На період відновлення надішлемо вам запасну деталь. Або
+                    можемо відразу надіслати вже відновлений елемент в обмін на
+                    вашу несправну деталь. Якщо у вас вже є згорілий перемикач —
+                    можемо його викупити, ціна залежить від ступеня пошкодження.
+                  </p>
+                  <p>
+                    Підрульовий перемикач Renault Kangoo 2, Kangoo 3, Renault
+                    Clio 3, Renault Modus купити в Україні легко — швидка
+                    відправка та гарантія якості.
+                  </p>
+                </div>
+                <ul class="works-text-list list">
                   <li>✅ <strong>Обмін на ваш несправний перемикач</strong></li>
                   <li>✅ <strong>Оригінальний перемикач Delphi</strong></li>
                   <li>✅ <strong>Консультування щодо встановлення</strong></li>
                   <li>✅ <strong>Швидка відправка</strong></li>
                   <li>✅ <strong>Гарантія якості</strong></li>
-                  </ul>
+                </ul>
                 <p class="works-text-price">
                   💰 <strong>Ціна: 1600 UAH</strong>
                 </p>
@@ -488,8 +507,8 @@
             <h2 class="faq-title">Питання та відповіді</h2>
             <details class="faq-item">
               <summary>
-                Де купити підрульовий перемикач Renault Kangoo 2, Renault Clio 3,
-                Renault Modus в Україні?
+                Де купити підрульовий перемикач Renault Kangoo 2, Renault Clio
+                3, Renault Modus в Україні?
               </summary>
               <p>
                 Замовити підрульовий перемикач Renault Kangoo 2, Kangoo 3,
@@ -593,7 +612,6 @@
           Залиште свої контакти і ми обов'язково з Вами зв'яжемося в найкоротший
           термін
         </p>
-
         <form class="modal-form" id="contactForm">
           <label class="modal-form-field">
             <span class="modal-form-input-desc">Ім'я</span>
