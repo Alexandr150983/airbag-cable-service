@@ -1389,7 +1389,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
 
 .works-text-list {
   flex-grow: 1;
-  margin: 20px auto;
+  margin: 20px 0px;
   text-align: justify;
   line-height: 1.6;
   letter-spacing: 0.02em;
