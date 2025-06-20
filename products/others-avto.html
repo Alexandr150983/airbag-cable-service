@@ -56,30 +56,32 @@
       content="https://airbagcableservice.in.ua/products/others-avto.html"
     />
     <script>
-  let trackingEnabled = false;
+      let trackingEnabled = false;
 
-  function loadAnalytics() {
-    if (trackingEnabled) return;
-    trackingEnabled = true;
+      function loadAnalytics() {
+        if (trackingEnabled) return;
+        trackingEnabled = true;
 
-    let script = document.createElement('script');
-    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-TWQQWYKSHT';
-    script.async = true;
-    document.body.appendChild(script);
+        let script = document.createElement('script');
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-TWQQWYKSHT';
+        script.async = true;
+        document.body.appendChild(script);
 
-    script.onload = function () {
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
+        script.onload = function () {
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
 
-      gtag('js', new Date());
-      gtag('config', 'G-TWQQWYKSHT');      // Google Analytics
-      gtag('config', 'AW-17177166571');   // Google Ads
-    };
-  }
+          gtag('js', new Date());
+          gtag('config', 'G-TWQQWYKSHT'); // Google Analytics
+          gtag('config', 'AW-17177166571'); // Google Ads
+        };
+      }
 
-  window.addEventListener('click', loadAnalytics);
-  window.addEventListener('scroll', loadAnalytics);
-</script>
+      window.addEventListener('click', loadAnalytics);
+      window.addEventListener('scroll', loadAnalytics);
+    </script>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -438,29 +440,52 @@
                 <h1 class="works-title">
                   Підрульовий шлейф на різні автомобіл
                 </h1>
+                <h2 class="works-title">
+                  Ремонт шлейфів підрульового перемикача на різні авто
+                </h2>
+                <div class="works-text">
+                  <p>
+                    Пропонуємо
+                    <strong>ремонт та заміну підрульових шлейфів</strong> на
+                    різні автомобілі.
+                  </p>
+
+                  <p>
+                    Якщо є можливість надіслати свою підрульову касету — можемо
+                    спробувати її відремонтувати. Якщо підберемо відповідний
+                    шлейф — виконаємо ремонт і надішлемо Вам готову, зібрану та
+                    налаштовану деталь у
+                    <strong>нульове положення керма (рівні колеса)</strong>.
+                  </p>
+
+                  <p>Строк виконання — <strong>1 день</strong>.</p>
+
+                  <p>
+                    Вартість визначається індивідуально для кожного авто —
+                    залежить від типу шлейфа та кількості доріжок.
+                  </p>
+
+                  <p>
+                    На всі відновлені деталі надається
+                    <strong>гарантія</strong>.
+                  </p>
+
+                  <p>
+                    Характерні ознаки обірваного шлейфа:
+                    <strong>не працює клаксон</strong>,
+                    <strong>є помилка по подушці безпеки</strong>, а також, якщо
+                    в авто є мультимедійні кнопки або круїз-контроль —
+                    <strong>вони перестають працювати</strong>.
+                  </p>
+
+                  <p>
+                    Шлейф підрульового перемикача на автомобіль купити в Україні
+                    легко — швидка відправка та гарантія якості.
+                  </p>
+                </div>
                 <ul class="works-text-list list">
-                  <li>
-                    <div class="works-text">
-                      Пропонуємо ремонт та заміну підрульових шлейфів на різні
-                      автомобілі. Якщо є можливість відправити свою підрульову
-                      касету на ремонт то можу спробувати її зробити, якщо
-                      підберу шлейф то можу зробити її та відправити Вам
-                      зворотньо вже готову та виставлену в положення керма при
-                      рівних колесах деталь, по терміну роботи - один день. По
-                      ціні на кожне авто потрібно уточнювати індивідуально по
-                      факту, все залежатиме від різновиду та кількості шлейфа.
-                      На зроблені деталі даю гарантію. Характерними ознаками
-                      обірваного шлейфа є непрацездатність клаксону, наявність
-                      помилки по подушці безпеки, а також, якщо авто з кнопками
-                      мультимедіа і круїз контролем то кнопки також перестають
-                      працювати. Шлейф підрульового перемикача на автомобіль
-                      купити в Україні легко - відправляємо швидко і надаємо
-                      гарантію.
-                    </div>
-                  </li>
-                  <li>✅ <strong>Обмін на ваш несправний шлейф</strong></li>
+                  <li>✅ <strong>Ремонт Вашого несправного шлейфа</strong></li>
                   <li>✅ <strong>Оригінальний Valeo шлейф</strong></li>
-                  <li>✅ <strong>Консультування по установці</strong></li>
                   <li>✅ <strong>Швидка відправка</strong></li>
                   <li>✅ <strong>Гарантія якості</strong></li>
                 </ul>
