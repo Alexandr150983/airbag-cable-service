@@ -60,30 +60,32 @@
       content="https://airbagcableservice.in.ua/ru/products/renault-scenic-2.html"
     />
     <script>
-  let trackingEnabled = false;
+      let trackingEnabled = false;
 
-  function loadAnalytics() {
-    if (trackingEnabled) return;
-    trackingEnabled = true;
+      function loadAnalytics() {
+        if (trackingEnabled) return;
+        trackingEnabled = true;
 
-    let script = document.createElement('script');
-    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-TWQQWYKSHT';
-    script.async = true;
-    document.body.appendChild(script);
+        let script = document.createElement('script');
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-TWQQWYKSHT';
+        script.async = true;
+        document.body.appendChild(script);
 
-    script.onload = function () {
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
+        script.onload = function () {
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
 
-      gtag('js', new Date());
-      gtag('config', 'G-TWQQWYKSHT');      // Google Analytics
-      gtag('config', 'AW-17177166571');   // Google Ads
-    };
-  }
+          gtag('js', new Date());
+          gtag('config', 'G-TWQQWYKSHT'); // Google Analytics
+          gtag('config', 'AW-17177166571'); // Google Ads
+        };
+      }
 
-  window.addEventListener('click', loadAnalytics);
-  window.addEventListener('scroll', loadAnalytics);
-</script>
+      window.addEventListener('click', loadAnalytics);
+      window.addEventListener('scroll', loadAnalytics);
+    </script>
     <script type="application/ld+json">
       [
         {
@@ -448,38 +450,29 @@
               </div>
               <div class="works-title-text">
                 <h1 class="works-title">Подрулевой шлейф Renault Scenic 2</h1>
-                <h2 class="works-title">
-                  Продажа шлейфов подрулевого переключателя Рено Сценик 2
-                </h2>
-                <div class="works-text">
-                  <p>
-                    Предлагаем
-                    <strong>шлейф подрулевого переключателя</strong> для Renault
-                    Scenic 2 — как с круиз-контролем, так и без него.
-                  </p>
-
-                  <p>
-                    Отправим уже готовый модуль с шлейфом, настроенный в нулевое
-                    положение руля, в обмен на вашу сломанную деталь. Все шлейфы
-                    полностью перебраны с устранением причин обрыва в будущем.
-                  </p>
-
-                  <p>На каждую деталь предоставляется гарантия.</p>
-
-                  <p>
-                    Характерные признаки оборванного шлейфа: сначала
-                    <strong>хруст в руле</strong> при поворотах, затем
-                    появляется <strong>ошибка подушки безопасности</strong>.
-                    Если в автомобиле есть круиз-контроль —
-                    <strong>кнопки на руле перестают работать</strong>.
-                  </p>
-
-                  <p>
-                    Купить шлейф руля Renault Scenic 2 в Украине легко — быстрая
-                    отправка и гарантия качества!
-                  </p>
-                </div>
                 <ul class="works-text-list list">
+                  <li>
+                    <div class="works-text">
+                      <p>
+                        Предлагаем
+                        <strong>шлейф подрулевого переключателя</strong> для
+                        Renault Scenic 2 — как с круиз-контролем, так и без
+                        него. Отправим уже готовый модуль с шлейфом, настроенный
+                        в нулевое положение руля, в обмен на вашу сломанную
+                        деталь. Все шлейфы полностью перебраны с устранением
+                        причин обрыва в будущем.
+                      </p>
+
+                      <p>
+                        Характерные признаки оборванного шлейфа: сначала
+                        <strong>хруст в руле</strong> при поворотах, затем
+                        появляется <strong>ошибка подушки безопасности</strong>.
+                        Если в автомобиле есть круиз-контроль —
+                        <strong>кнопки на руле перестают работать</strong>.
+                      </p>
+                    </div>
+                  </li>
+
                   <li>✅ <strong>Обмен на ваш неисправный шлейф</strong></li>
                   <li>✅ <strong>Оригинальный Valeo шлейф</strong></li>
                   <li>✅ <strong>Консультирование по установке</strong></li>
